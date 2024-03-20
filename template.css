@@ -11,18 +11,29 @@ header {
     font-size: 35px; 
     color: white;
 }
+a:hover {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline overline;
+    color: #000000;
+}
+a {
+    color: #000000;
+}
 p {
     color: yellow;
     font-family: arial;
-    font-size: "20pt";
+    font-size: 35pt;
     text-align: left;
-    
+    margin-bottom: 0;
+    margin-top: 0;
 }
 p.one {
     color: white;
     font-family: arial;
-    font-size: 15pt;
+    font-size: 20pt;
     text-align: left;
+    margin-top: 0;
 }
 
 nav {
@@ -32,15 +43,16 @@ nav {
     background: white;
     padding: 20px;
     border-style: dashed;
-    color: aqua;
-    margin-top: 5pt;
-    margin-bottom: 5pt;
+    color: grey;
+    margin-top: 7pt;
+    margin-bottom: 7pt;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
     font-family: arial;
+    font-size: 20px;
 }
 article {
     float: left;
@@ -52,12 +64,18 @@ article {
 h1 {
     font-size: 50px;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+img {
+    margin-bottom: 0;
 }
 p.two {
     color: black;
     font-family: arial;
     font-size: 20pt;
     text-align: center;
+    margin-bottom: 20pt;
 }
 p.three {
     color: red;
@@ -72,7 +90,7 @@ section::after {
 }
 footer {
     background-color: rgb(157, 203, 250);
-    padding: 10px;
+    padding: 20px;
     text-align: right;
     color: black;
 }
