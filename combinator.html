@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Combinator Selector</title>
+        <style>
+            div p {
+                color: red;
+            }
+            div > p {
+                background-color: yellow;
+            }
+            div + p {
+                background-color: darkgray;
+            }
+            div ~ p {
+                color: cyan;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <p>Paragraph no 1 menggunakan selector p dengan style berupa text yang berada ditengah dan berwarna aqua</p>
+            <p>Paragraph no 2 menggunakan selector #kalimat dengan style berupa text yang berada disebelah kiri dengan warna merah</p>
+        </div>
+        <p>Paragraph no 3 menggunakan selector .center dengan style berupa text yang berada di tengah dan memiliki warna chocolate</p>
+        <p>Paragraph no 4 menggunakan selector p. tengah dengan style berupa text yang berada di tengah dan berwarna darkmagenta. 
+            Kalimat dalam paragraph diblok dengan warna background #777777</p>
+    </body>
+</html>
